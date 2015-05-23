@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>NockNock</title>
+  </head>
+  <body>
+  	<div class="container">
+	  <div class="jumbotron">
+	    <h2>Nock Nock!</h2>
+	    <p>Who's there?</p> 
+	  </div>
+	  <div id="gallery" data-bind="foreach: rows">
+	  	<div class="row">
+	  		<div data-bind="foreach: entries">
+	  			<div class="col-sm-3">
+	  				<a href="#" class="thumbnail">
+	  					<p data-bind="text: caption"></p>
+	  					<img style="height: 200px" data-bind="attr: {'src': getSource()}">
+	  				</a>
+		      	</div>
+	    	</div>
+	  	</div>
+	  </div>
+
+	  <!--div class="row">
+	    <div class="col-sm-3">
+	      <h4>这货车设计的真糟蹋人。</h4>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	    <div class="col-sm-3">
+	      <h4>Column 2</h4>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	    <div class="col-sm-3">
+	      <h4>Column 3</h4>        
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	    <div class="col-sm-3">
+	      <h4>Column 3</h4>        
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm-3">
+	      <h4>Column 1</h4>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	    <div class="col-sm-3">
+	      <h4>Column 2</h4>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	    <div class="col-sm-3">
+	      <h4>Column 3</h4>        
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	    <div class="col-sm-3">
+	      <h4>Column 3</h4>        
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm-3">
+	      <h4>Column 1</h4>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	    <div class="col-sm-3">
+	      <h4>Column 2</h4>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	    <div class="col-sm-3">
+	      <h4>Column 3</h4>        
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	    <div class="col-sm-3">
+	      <h4>Column 3</h4>        
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="col-sm-3">
+	      <h4>Column 1</h4>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	    <div class="col-sm-3">
+	      <h4>Column 2</h4>
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	    <div class="col-sm-3">
+	      <h4>Column 3</h4>        
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	    <div class="col-sm-3">
+	      <h4>Column 3</h4>        
+	      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+	      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	    </div>
+	  </div>
+	</div-->
+
+	<script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/knockout-3.3.0.js"></script>
+	<script src="js/app.js"></script>
+  </body>
+</html>
+
